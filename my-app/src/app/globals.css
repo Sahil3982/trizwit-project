@@ -1,0 +1,72 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid rgb(145, 142, 142);
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+  padding: 7px;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main > section > button {
+  padding: 5px 12px;
+  color: #fdfdfd;
+  background-color: blue;
+  border: 1px solid cornsilk;
+}
+
+select {
+  border: none;
+}
+
+/* Cart */
+.cart {
+  width: 60rem;
+  max-width: 65rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 2px;
+  background-color: rgb(249, 243, 243);
+  border-radius: 4px;
+}
+
+.pic {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Section 2 */
+.section2 {
+  padding: 30px;
+}
+
+/* Paragraph */
+.para {
+  padding: 10px;
+}
